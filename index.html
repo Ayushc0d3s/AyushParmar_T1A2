@@ -1,48 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ayush Parmar</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/dq-logo.png" type="image/png" />
+  </head>
 
-<body>
-    <div class="main-grid">
-<header>
-    <img class="logo" src="images/APlogo.svg" alt="logo">
-    <nav class="nav">
-       <a href="" class="nav-link">About</a>
-       <a href="" class="nav-link">Projects</a>
-       <a href="" class="nav-link">Blog</a>
-    </nav>
-</header>
+  <body>
+    <div class="page-container">
+      <!-- text component - nav bar -->
+      <header class="header-nav">
+        <div class="logo-container">
+          <a href="#"
+            ><img src="images/APlogo.svg" alt="logo" class="logo"
+          /></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/projects.html">Projects</a></li>
+            <li><a href="pages/blogs.html">Blogs</a></li>
+          </ul>
+        </nav>
+      </header>
 
-<main>
- <h1 class="name">Ayush Parmar</h1>
- <h3 class="job-title">Web Devloper</h3>
-<img src="images/myportrait.jpg" alt="" class="primary-img">
-<div class="secondary">
-    <img src="/images/myportrait.jpg" alt="" class="secondary-img">
-    <img src="  images/myportrait.jpg" alt="" class="secondary-img">
-</div>
-<article class="description">
-    <p>I have spent the last 2 years in the aviation industry as a student pilot unfortunately due to unforeseen circumstances i was unable to further my education. i have always been involved with web and software since i was a child so now i have decided to dive in with all my courage and dedication into this field which is undoubtedly one of the greatest marvels of the human mind and i shall count myself lucky to have the chance to be a part of it.</p>
-</article>
-<button class="btn">Resume</button>
-    
-</main>
+      <main class="main-index">
+        <div class="intro-info-container">
+          <!-- text component - intro -->
+          <section class="intro">
+            <header><h1>Ayush Parmar</h1></header>
+            <h2 id="job-title">Junior Web Devloper</h2>
+          </section>
 
-<footer>
-    <div class="social-links">
-        <a href="" class="social-link" aria-label="Instagram"><img src="images/instagram.svg" alt="Instagram" class="social-img"></a>
-        <a href="" class="social-link" aria-label="Linkedin"><img src="images/linkedin.svg" alt="Linkedin" class="social-img"></a>
-        <a href="" class="social-link" aria-label="Twitter"><img src="images/twitter.svg" alt="Twitter" class="social-img"></a>
-        <a href="" class="social-link" aria-label="github"><img src="images/github.svg" alt="github">
-            
+          <!-- text/graphical component - contacts/portrait container -->
+          <article class="info">
+            <div class="portrait-container">
+              <img
+                class="portrait"
+                src="images/myportrait.jpg"
+                alt="photo-of-david"
+              />
+            </div>
+            <p>Parmarayush728@gmail.com</p>
+            <p>+61 450 983 650</p>
+            <nav class="account-links">
+              <a
+                href=""
+                target="_blank"
+                ><img src="images/linkedin-logo.svg" alt="linkedin-logo"
+              /></a>
+              <a href="" target="_blank"
+                ><img src="images/github-logo.svg" alt="github-logo"
+              /></a>
+              <a href="" target="_blank"
+                ><img src="images/twitter-logo.svg" alt="twitter-logo"
+              /></a>
+              <a href="" target="_blank"
+                ><img src="images/instagram-logo.svg" alt="instagram-logo"
+              /></a>
+            </nav>
+          </article>
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; 2022 Ayush Parmar</p>
+      </footer>
     </div>
-</footer>
-    </div>
-</body>
+  </body>
 </html>

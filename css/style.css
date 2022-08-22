@@ -1,0 +1,60 @@
+/* global */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+:root {
+    --clr-primary: white;
+    --clr-primary-accent:#817f7f;
+    --ff-primary: 'Roboto', sans-serif;
+    --ff-title: 'poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,h2 {
+    color: var(--clr-primary);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: var(--ff-primary);
+    background-color: var(--clr-primary);
+}
+
+body {
+    margin: 1;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .page-container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+  }
+ 
+  /* logo */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.logo {
+    width: clamp(2rem, 4.6vw + 1.1rem, 3rem);
+}
+
+ /* nav component */
+ 
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0.5em;
+    justify-content: space-evenly;
+}
