@@ -3,15 +3,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
 :root {
-    --clr-primary: white;
-    --clr-primary-accent:#817f7f;
+    --clr-primary: rgba(255, 255, 255, 0.467);
+    --clr-primary-accent:#f5eaea;
+    --clr-primary-text: black;
     --ff-primary: 'Roboto', sans-serif;
     --ff-title: 'poppins', sans-serif;
+}
+
+@media screen (max width: 768px) {
+
+    
 }
 
 * {
     box-sizing: border-box;
 }
+
+/* * anchor-styling * */
+.project-text-container a,
+.about-section-container h2 a {
+  color: var(--clr-accent);
+  text-decoration: underline;
+}
+
+/* hover effects */
+nav a:hover,
+.account-links a:hover,
+.project-links-container a:hover,
+#contact-me:hover,
+.about-section-container a:hover,
+.logo:hover {
+  display: inline-block;
+  transform: scale(1.125);
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-secondary);
+  }
+  
 
 h1,h2 {
     color: var(--clr-primary);
@@ -25,9 +55,11 @@ html {
 }
 
 body {
-    margin: 1;
+    display: flex;
+    flex-direction: column;
     padding: 0;
     height: 100vh;
+    margin: auto;
   }
   
   .page-container {
@@ -51,10 +83,62 @@ body {
 }
 
  /* nav component */
- 
-nav ul {
+ body>nav, footer>nav {
     display: flex;
     list-style: none;
     padding: 0.5em;
     justify-content: space-evenly;
+}
+
+/* Main */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+header>p {
+    display: none;
+}
+
+h1, h2 {
+    color: var(--clr-primary-text);
+}
+
+/* Potrait */
+.portrait-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portrait {
+    display: flex;
+    width: 35vw;
+    border-radius: 25%;
+    border-color: var(--clr-accent);
+    background-color: black;
+}
+/* Info */
+.text-container {
+    text-align: center;
+    font-size: clamp(0.8rem, 0.7vw + 0.71rem, 1rem);
+}
+
+footer {
+    justify-content: center;
+    margin-top: auto;
+}
+
+footer>p {
+    text-align: center;
 }
