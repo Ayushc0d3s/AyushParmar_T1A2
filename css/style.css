@@ -10,10 +10,7 @@
     --ff-title: 'poppins', sans-serif;
 }
 
-@media screen (max width: 768px) {
 
-    
-}
 
 * {
     box-sizing: border-box;
@@ -142,3 +139,27 @@ footer {
 footer>p {
     text-align: center;
 }
+
+@media screen and (min-width: 600px) {
+    main {
+     display: flex;
+     height: 100%;
+     align-items: center;
+     justify-content: space-evenly;
+    }
+    
+    header {
+     margin-top: 0em;
+     order: 2;
+    }
+ 
+     .main-index p {  
+       display: inline-block;
+ }
+ 
+ 
+ .text-container {
+     display: none;
+ }
+ 
+ }
