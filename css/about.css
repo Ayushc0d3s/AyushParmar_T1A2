@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main>p {
+    padding: 1em;
+}
+
+header {
+    margin-top: 0em;
+}
+

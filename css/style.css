@@ -152,6 +152,10 @@ footer>p {
      margin-top: 0em;
      order: 2;
     }
+
+    .portrait {
+        width: 20vw;
+    }
  
      .main-index p {  
        display: inline-block;
