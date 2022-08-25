@@ -57,7 +57,7 @@ body {
     padding: 0;
     height: 100vh;
     margin: auto;
-  }
+}
   
   .page-container {
     max-width: 1920px;
@@ -140,30 +140,11 @@ footer>p {
     text-align: center;
 }
 
-@media screen and (min-width: 600px) {
-    main {
-     display: flex;
-     height: 100%;
-     align-items: center;
-     justify-content: space-evenly;
-    }
-    
-    header {
-     margin-top: 0em;
-     order: 2;
-    }
 
-    .portrait {
-        width: 20vw;
-    }
- 
-     .main-index p {  
-       display: inline-block;
- }
  
  
  .text-container {
      display: none;
  }
  
- }
+ 

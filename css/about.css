@@ -1,14 +1,49 @@
+header {
+    margin-top: 0em;
+}
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main>p {
+div, aside>p {
     padding: 1em;
+   text-align: center;
+    font-size: clamp(0.8rem, 0.48vw + 0.8rem, 1rem);
 }
 
-header {
-    margin-top: 0em;
+div>a {
+    text-decoration: underline;
+}
+
+div>a:hover {
+    display: inline-block;
+   transform: scale(1.125);
+   color: blue;
+}
+
+@media screen and (min-width: 600px) 
+    {
+       main>header {
+            margin-top: 0em;
+            width: 50%;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 100%;
+            align-items: center;
+            justify-content: flex-end;
+           }
+
+           div {
+           width: 50%;
+           }
+
+
 }
 
