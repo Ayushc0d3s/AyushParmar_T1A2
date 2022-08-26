@@ -1,0 +1,32 @@
+/* Blog css */
+.blog-container 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.blog-link-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+/* blog image */
+.blog-link-container img {
+    display: block;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.blog-link-container:hover {
+    transform: scale(1.015);
+}
+
+@media screen and (min-width: 600px){
+    .blog-link-container {
+        width : 50%;
+        padding-right: 1em;
+    } 
+}
