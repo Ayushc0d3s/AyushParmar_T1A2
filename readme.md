@@ -1,9 +1,9 @@
 # Portfolio Documentation
 
-## [portfolio website](https://github.com/Ayushc0d3s/AYUSHPARMAR_T1A2)
+## [portfolio website]()
 
-## [Github repository] ()
-
+## [Github repository](https://github.com/Ayushc0d3s/AYUSHPARMAR_T1A2)
+ 
 ## [presentation] ()
 
 ## Purpose and Target audience
