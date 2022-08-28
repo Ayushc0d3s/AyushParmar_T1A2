@@ -1,6 +1,6 @@
 # Portfolio Documentation
 
-## [portfolio website]()
+## [portfolio website](https://630ab8bea0b05a63227bbec6--animated-platypus-a7b351.netlify.app/index.html)
 
 ## [Github repository](https://github.com/Ayushc0d3s/AYUSHPARMAR_T1A2)
  
@@ -23,7 +23,7 @@ The purpose of this project is to demonstrate to recruiters my learning start po
 - GITHUB for publishing repository.
 - Firefox for testing purposes.
 - Adobe illustrator for editing images.
-- GITHUB pages for deployment.
+- Netlify was used for deployment.
 
 ## Sitemap
 
