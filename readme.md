@@ -50,3 +50,6 @@ Projects page
 ## Final notes
 
 Thank you for checking out my portfolio
+# AyushParmar_T1A2
+# AyushParmar_T1A2
+# AyushParmar_T1A2
